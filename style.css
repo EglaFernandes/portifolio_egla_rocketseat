@@ -285,7 +285,7 @@ section {
 
 .folders {
   width: 300px;
-  height: 186px;
+  min-height: 186px;
   font-family: "Merriweather Sans";
 }
 
@@ -312,6 +312,7 @@ section {
   justify-content: start;
   font-weight: 400;
   size: 14px;
+  flex-wrap: wrap;
 }
 
 .folders li {
@@ -327,7 +328,7 @@ section {
 }
 
 .folders li:nth-child(3) {
-  margin-left: 40%;
+  margin-left: auto;
 }
 
 .recentPost {
